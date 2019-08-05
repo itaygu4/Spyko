@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/black"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    tools:context="ListenToOthersActivity">
+
+    <!-- youtube player view to play videos -->
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="250sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/youtube_player_view"
+        android:id="@+id/chat_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="212sp"
+        android:layout_above="@+id/message_input"
+        android:padding="8sp"
+        android:scrollbars="none">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <EditText
+        android:textCursorDrawable="@drawable/cursor"
+        android:id="@+id/message_input"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="10sp"
+        android:paddingBottom="5sp"
+        android:layout_width="295sp"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="18sp"
+        android:layout_height="35sp" />
+
+    <ImageView
+        android:onClick="messageSendClick"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginLeft="8sp"
+        android:layout_toEndOf="@+id/message_input"
+        android:src="@drawable/send4"
+        android:layout_width="40sp"
+        android:layout_height="47sp" />
+
+</RelativeLayout>

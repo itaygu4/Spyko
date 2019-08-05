@@ -1,0 +1,8 @@
+<resources>
+    <style name="splashScreenTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash4</item>
+        <item name="android:colorPrimaryDark">@color/black</item>
+    </style>
+
+
+</resources>

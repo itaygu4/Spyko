@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title=""
+        android:id="@+id/action_search_music"
+        android:icon="@drawable/ic_add_final"
+
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/more_options"
+        android:title="Rename playlist"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert_black_24dp">
+
+        <menu >
+            <item android:id="@+id/action_rename_playlist"
+                android:title="Rename playlist"
+                >
+            </item>
+            <item android:id = "@+id/action_delete_playlist"
+                android:title="Delete playlist"/>
+
+        </menu>
+    </item>
+</menu>

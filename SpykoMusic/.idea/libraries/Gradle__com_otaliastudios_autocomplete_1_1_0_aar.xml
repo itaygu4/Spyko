@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.otaliastudios:autocomplete:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/468e3c05c4a5bbac1cc73c0ccc2a714c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/468e3c05c4a5bbac1cc73c0ccc2a714c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.otaliastudios/autocomplete/1.1.0/85b632acf93868a4ab1410bfea48b92ae634317f/autocomplete-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

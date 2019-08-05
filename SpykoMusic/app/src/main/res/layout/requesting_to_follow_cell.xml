@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="220dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:id="@+id/requesting_to_follow_image"
+            android:layout_centerHorizontal="true"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+        
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/requesting_to_follow_nickname"
+            android:layout_below="@+id/requesting_to_follow_image"
+            android:layout_centerHorizontal="true"
+            android:textSize="22sp"
+            android:text="user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/requesting_to_follow_name"
+            android:layout_below="@id/requesting_to_follow_nickname"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/requesting_to_follow_ignore_button"
+            android:src="@drawable/ic_remove"
+            android:padding="4sp"
+            android:layout_marginLeft="3sp"
+            android:layout_marginRight="3sp"
+            android:layout_width="31sp"
+            android:layout_height="31sp" />
+
+        <TextView
+            android:id="@+id/requesting_to_follow_accept_button"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Accept"
+            android:background="@drawable/rounded_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+    </RelativeLayout>
+    
+
+</android.support.v7.widget.CardView>

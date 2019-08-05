@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Spyko Music</string>
+    <string name="hint"><i>Add a song...</i></string>
+    <string name="search_title"><i>Search for people...</i></string>
+</resources>

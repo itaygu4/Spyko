@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "172428688750",
+    "firebase_url": "https://spyko-music.firebaseio.com",
+    "project_id": "spyko-music",
+    "storage_bucket": "spyko-music.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172428688750:android:8ceef402c3579f0b",
+        "android_client_info": {
+          "package_name": "com.example.itayg.spykomusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172428688750-3v9i5vrd0v2vo3q55crgoqsh09nptj1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.itayg.spykomusic",
+            "certificate_hash": "0cf7e62456452653f45b00e52143e8dea26adadf"
+          }
+        },
+        {
+          "client_id": "172428688750-3ernnhi9hrhq8hfirl9hr6qv3b4m8j4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6k0UjvfBQ3MvEK4UkVaFOmEPwnipp_yk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172428688750-3ernnhi9hrhq8hfirl9hr6qv3b4m8j4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

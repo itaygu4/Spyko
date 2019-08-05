@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="YoutubePlayerActivity">
+
+    <!-- youtube player view to play videos -->
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="300sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_recycler_view"
+        android:layout_below="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="215sp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="540sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:autoMirrored="true"
+            android:layout_marginEnd="40sp"
+            android:id="@+id/lastTrackButton"
+            android:onClick="lastTrackClick"
+            android:src="@drawable/ic_last_track"
+            android:layout_width="56sp"
+            android:layout_height="56sp" />
+
+        <!--<ImageView
+            android:id="@+id/playStopButton"
+            android:onClick="playOrStopClick"
+            android:src="@drawable/ic_stop_track"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="56sp"
+            android:layout_height="56sp" />-->
+
+        <ImageView
+            android:autoMirrored="true"
+            android:id="@+id/nextTrackButton"
+            android:onClick="nextTrackClick"
+            android:layout_marginStart="40sp"
+            android:src="@drawable/ic_next_track"
+            android:layout_width="56sp"
+            android:layout_height="56sp" />
+    </LinearLayout>
+</RelativeLayout>
+

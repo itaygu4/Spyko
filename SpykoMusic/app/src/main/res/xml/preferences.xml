@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="account_private"
+        android:title="private profile"
+        android:summary="If you enable private profile only your followers will be able to see your followers/following info and your playlists"
+        android:defaultValue="false"/>
+
+    <EditTextPreference
+        android:id="@+id/preference_name"
+        android:key="account_name"
+        android:title="Name"
+        android:summary=""/>
+    <EditTextPreference
+        android:id="@+id/preference_email"
+        android:key="account_email"
+        android:title="Email"
+        android:summary=""/>
+
+</PreferenceScreen>

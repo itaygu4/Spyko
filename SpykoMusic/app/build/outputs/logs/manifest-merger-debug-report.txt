@@ -1,0 +1,715 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:1-124:12
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:1-124:12
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:1-124:12
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:1-124:12
+MERGED from [com.github.glomadrian:Grav:1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\bbf17cf9e7caeaafef41a27665a97a34\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c891bc1f5b51d65e4ce96e0efd7bcdb1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1f4016cd56f3ea2a3c20e48e5183b5b7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\d5684b3029ddeb708851712f33c4dd55\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\72f24aa96ae3abd9efed303d46b40315\AndroidManifest.xml:2:1-8:12
+MERGED from [com.muddzdev:styleabletoast:2.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbc48389bbecb70f293773c4db60633b\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1d6878b6fef7f0754a28f3d13370a517\AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\263ff7997ce7b1432805d67d4da543d8\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\59e24d0ed98c6f69af6257c2a5e39021\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-storage:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\7b8c1c71aa65fe67b58fd1581a1370ae\AndroidManifest.xml:2:1-7:12
+MERGED from [com.otaliastudios:autocomplete:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\468e3c05c4a5bbac1cc73c0ccc2a714c\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\894d73c795aba62e561d0e93992df0d7\AndroidManifest.xml:2:1-13:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\7a61c2ad597e2c1ee3bb8931d1c704c2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\2c475c60164441646d4a12df91bf191a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3da5d24ed3f8fe9976b9040985c07abf\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:17:1-37:12
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e98f1a7f4899d98986740e6f14209b67\AndroidManifest.xml:1:91-6:12
+MERGED from [jp.wasabeef:blurry:2.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\b8bb9c5ffd22c313839f0b83fc5c6af7\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a302df95d3d863f6e2e760ca6b12ee67\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\eaebacd55093c73707adca4aff0ab624\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\44a700f562534336e0494862d2c76de4\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dc9e740fd9dc6bf715482b7cb5ee4b2a\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\9087f3b2ff45437281650619de0eb236\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1cf6e2f1744f891ca35125f93c23da90\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\8daa693192705b9a75a883a3a9e192a6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\27c5b42eadce19726a169205e17cd851\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\674eb4288c75a090be05946b88ccda98\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76b9d6882e8e139e016cc99000115613\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\f4173927c39ad2063145c528ea84bf16\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\6e077a97157c337748d4096c1aad2022\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e203673b21598e0cebcccb6d2ab110d3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a39a5082a0a9ab8477d4709b0e02a4f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\447ed0308c47ab265a30c9d47cc992ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\11de2ee1250ff303261eb60f2f91f677\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\cd18727671a3d1496e0786cf839e20bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\947b053fd614220f4dc1c3769bf9e43e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\977420ba8037722d261b56589b3f2f0b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\422c6453074e595637b3de2691aed4a9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\5619fd5edc910dffd7b7392edc8be02a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8a7415d09038ea67387eb5176cf131f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbba7b36cbc8c2209bf9318658ac33d7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c35ed8fd8c7b821e300e6f488716d9e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\f6d14ff6f69db4fa7071538294dce9e9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3c74dc4819ad3ed3d6994f14d4bdbed3\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8b5462fc03bf3ee61217e5df02eea6a\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1a7f24ef461089fb62e98833ee02a80a\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1702609fe014246e35687c44d726a7f1\AndroidManifest.xml:22:1-33:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\b317a63cf2da48e0a869ef093f60ead9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a16ecbd3e903d280b8389c9ebb73e343\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\927c9596d88cd57e972e97b240f15bee\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\2002a97bd32ec347fea3fa22be4d19a8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\6af9e6c0e34c9f78050806fab4f75577\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:1-124:12
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:1-124:12
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:1-124:12
+	package
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:1-124:12
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:1-124:12
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:9:5-67
+MERGED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:10:5-67
+MERGED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1cf6e2f1744f891ca35125f93c23da90\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1cf6e2f1744f891ca35125f93c23da90\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\674eb4288c75a090be05946b88ccda98\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\674eb4288c75a090be05946b88ccda98\AndroidManifest.xml:8:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3c74dc4819ad3ed3d6994f14d4bdbed3\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3c74dc4819ad3ed3d6994f14d4bdbed3\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8b5462fc03bf3ee61217e5df02eea6a\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8b5462fc03bf3ee61217e5df02eea6a\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1a7f24ef461089fb62e98833ee02a80a\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1a7f24ef461089fb62e98833ee02a80a\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1702609fe014246e35687c44d726a7f1\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1702609fe014246e35687c44d726a7f1\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:7:22-64
+application
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:9:5-122:19
+MERGED from [com.github.glomadrian:Grav:1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\bbf17cf9e7caeaafef41a27665a97a34\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.glomadrian:Grav:1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\bbf17cf9e7caeaafef41a27665a97a34\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\d5684b3029ddeb708851712f33c4dd55\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\d5684b3029ddeb708851712f33c4dd55\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:22:5-36:19
+MERGED from [com.muddzdev:styleabletoast:2.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbc48389bbecb70f293773c4db60633b\AndroidManifest.xml:11:5-47
+MERGED from [com.muddzdev:styleabletoast:2.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbc48389bbecb70f293773c4db60633b\AndroidManifest.xml:11:5-47
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1d6878b6fef7f0754a28f3d13370a517\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1d6878b6fef7f0754a28f3d13370a517\AndroidManifest.xml:7:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\263ff7997ce7b1432805d67d4da543d8\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\263ff7997ce7b1432805d67d4da543d8\AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\59e24d0ed98c6f69af6257c2a5e39021\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\59e24d0ed98c6f69af6257c2a5e39021\AndroidManifest.xml:9:5-20
+MERGED from [com.otaliastudios:autocomplete:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\468e3c05c4a5bbac1cc73c0ccc2a714c\AndroidManifest.xml:11:5-20
+MERGED from [com.otaliastudios:autocomplete:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\468e3c05c4a5bbac1cc73c0ccc2a714c\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\894d73c795aba62e561d0e93992df0d7\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\894d73c795aba62e561d0e93992df0d7\AndroidManifest.xml:11:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3da5d24ed3f8fe9976b9040985c07abf\AndroidManifest.xml:12:5-20
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3da5d24ed3f8fe9976b9040985c07abf\AndroidManifest.xml:12:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:22:5-35:19
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e98f1a7f4899d98986740e6f14209b67\AndroidManifest.xml:4:5-46
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e98f1a7f4899d98986740e6f14209b67\AndroidManifest.xml:4:5-46
+MERGED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:17:5-25:19
+MERGED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:17:5-25:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\eaebacd55093c73707adca4aff0ab624\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\eaebacd55093c73707adca4aff0ab624\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\44a700f562534336e0494862d2c76de4\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\44a700f562534336e0494862d2c76de4\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dc9e740fd9dc6bf715482b7cb5ee4b2a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dc9e740fd9dc6bf715482b7cb5ee4b2a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\9087f3b2ff45437281650619de0eb236\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\9087f3b2ff45437281650619de0eb236\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\8daa693192705b9a75a883a3a9e192a6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\8daa693192705b9a75a883a3a9e192a6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76b9d6882e8e139e016cc99000115613\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76b9d6882e8e139e016cc99000115613\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\f4173927c39ad2063145c528ea84bf16\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\f4173927c39ad2063145c528ea84bf16\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\6e077a97157c337748d4096c1aad2022\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\6e077a97157c337748d4096c1aad2022\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e203673b21598e0cebcccb6d2ab110d3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e203673b21598e0cebcccb6d2ab110d3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbba7b36cbc8c2209bf9318658ac33d7\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbba7b36cbc8c2209bf9318658ac33d7\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3c74dc4819ad3ed3d6994f14d4bdbed3\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3c74dc4819ad3ed3d6994f14d4bdbed3\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8b5462fc03bf3ee61217e5df02eea6a\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8b5462fc03bf3ee61217e5df02eea6a\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1a7f24ef461089fb62e98833ee02a80a\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1a7f24ef461089fb62e98833ee02a80a\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1702609fe014246e35687c44d726a7f1\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1702609fe014246e35687c44d726a7f1\AndroidManifest.xml:31:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\927c9596d88cd57e972e97b240f15bee\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\927c9596d88cd57e972e97b240f15bee\AndroidManifest.xml:7:5-20
+	android:supportsRtl
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:14:9-78
+	android:largeHeap
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:13:9-33
+	android:icon
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:11:9-67
+	android:allowBackup
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:16:9-65
+activity#com.example.itayg.spykomusic.LoginActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:17:9-27:20
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:20:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:21:13-52
+	android:theme
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:19:13-53
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:18:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.example.itayg.spykomusic.SearchableActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:28:9-36:20
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:28:19-53
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:29:13-31:29
+action#android.intent.action.SEARCH
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:30:17-71
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:30:25-68
+meta-data#android.app.searchable
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:33:13-35:54
+	android:resource
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:35:17-51
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:34:17-54
+activity#com.example.itayg.spykomusic.SignupActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:37:9-39:52
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:39:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:38:13-43
+activity#com.example.itayg.spykomusic.MainActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:41:13-41
+activity#com.example.itayg.spykomusic.PlaylistActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:43:9-51:20
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:44:13-45
+meta-data#android.app.default_searchable
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:48:13-50:60
+	android:value
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:50:17-57
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:49:17-62
+activity#com.example.itayg.spykomusic.NewPlaylistActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:52:9-54:52
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:53:13-48
+activity#com.example.itayg.spykomusic.HeaderActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:56:13-43
+activity#com.example.itayg.spykomusic.AccountActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:60:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:59:13-44
+activity#com.example.itayg.spykomusic.FollowingActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:61:9-69:20
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:63:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:62:13-46
+provider#com.example.itayg.spykomusic.SearchPeopleContentProvider
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:71:9-75:39
+	android:enabled
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:74:13-35
+	android:authorities
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:73:13-58
+	android:exported
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:75:13-36
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:72:13-56
+activity#com.example.itayg.spykomusic.OtherPeoplesAccountActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:78:13-56
+activity#com.example.itayg.spykomusic.SearchResultsActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:80:9-82:52
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:81:13-50
+meta-data#io.fabric.ApiKey
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:84:9-86:72
+	android:value
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:86:13-69
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:85:13-44
+activity#com.example.itayg.spykomusic.FollowersActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:88:9-96:20
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:89:13-46
+activity#com.example.itayg.spykomusic.SearchableMusicActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:97:9-105:20
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:97:19-58
+activity#com.example.itayg.spykomusic.YoutubePlayerActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:106:9-108:52
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:107:13-50
+activity#com.example.itayg.spykomusic.MusicSearchResultsActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:109:9-111:52
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:110:13-55
+activity#com.example.itayg.spykomusic.FollowingOrFollowersInfo
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:112:9-62
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:112:19-59
+activity#com.example.itayg.spykomusic.SettingsActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:113:9-54
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:113:19-51
+activity#com.example.itayg.spykomusic.ListenToOthersActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:114:9-118:20
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:116:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:117:13-52
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:115:13-51
+activity#com.example.itayg.spykomusic.FollowRequestsActivity
+ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:119:9-121:20
+	android:screenOrientation
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml:119:19-57
+uses-sdk
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+MERGED from [com.github.glomadrian:Grav:1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\bbf17cf9e7caeaafef41a27665a97a34\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.glomadrian:Grav:1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\bbf17cf9e7caeaafef41a27665a97a34\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c891bc1f5b51d65e4ce96e0efd7bcdb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c891bc1f5b51d65e4ce96e0efd7bcdb1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1f4016cd56f3ea2a3c20e48e5183b5b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1f4016cd56f3ea2a3c20e48e5183b5b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\d5684b3029ddeb708851712f33c4dd55\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\d5684b3029ddeb708851712f33c4dd55\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\72f24aa96ae3abd9efed303d46b40315\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\72f24aa96ae3abd9efed303d46b40315\AndroidManifest.xml:6:5-44
+MERGED from [com.muddzdev:styleabletoast:2.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbc48389bbecb70f293773c4db60633b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.muddzdev:styleabletoast:2.1.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbc48389bbecb70f293773c4db60633b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1d6878b6fef7f0754a28f3d13370a517\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1d6878b6fef7f0754a28f3d13370a517\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\263ff7997ce7b1432805d67d4da543d8\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\263ff7997ce7b1432805d67d4da543d8\AndroidManifest.xml:5:5-44
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\59e24d0ed98c6f69af6257c2a5e39021\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\59e24d0ed98c6f69af6257c2a5e39021\AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-storage:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\7b8c1c71aa65fe67b58fd1581a1370ae\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\7b8c1c71aa65fe67b58fd1581a1370ae\AndroidManifest.xml:5:5-44
+MERGED from [com.otaliastudios:autocomplete:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\468e3c05c4a5bbac1cc73c0ccc2a714c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.otaliastudios:autocomplete:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\468e3c05c4a5bbac1cc73c0ccc2a714c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:7:5-43
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\894d73c795aba62e561d0e93992df0d7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\894d73c795aba62e561d0e93992df0d7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\7a61c2ad597e2c1ee3bb8931d1c704c2\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\7a61c2ad597e2c1ee3bb8931d1c704c2\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\2c475c60164441646d4a12df91bf191a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\2c475c60164441646d4a12df91bf191a\AndroidManifest.xml:20:5-44
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3da5d24ed3f8fe9976b9040985c07abf\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aakira:expandable-layout:1.6.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3da5d24ed3f8fe9976b9040985c07abf\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:20:5-44
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e98f1a7f4899d98986740e6f14209b67\AndroidManifest.xml:2:5-72
+MERGED from [com.nhaarman.supertooltips:library:3.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e98f1a7f4899d98986740e6f14209b67\AndroidManifest.xml:2:5-72
+MERGED from [jp.wasabeef:blurry:2.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\b8bb9c5ffd22c313839f0b83fc5c6af7\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:blurry:2.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\b8bb9c5ffd22c313839f0b83fc5c6af7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:7:5-43
+MERGED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a302df95d3d863f6e2e760ca6b12ee67\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a302df95d3d863f6e2e760ca6b12ee67\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\eaebacd55093c73707adca4aff0ab624\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\eaebacd55093c73707adca4aff0ab624\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\44a700f562534336e0494862d2c76de4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\44a700f562534336e0494862d2c76de4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dc9e740fd9dc6bf715482b7cb5ee4b2a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dc9e740fd9dc6bf715482b7cb5ee4b2a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\9087f3b2ff45437281650619de0eb236\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\9087f3b2ff45437281650619de0eb236\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1cf6e2f1744f891ca35125f93c23da90\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1cf6e2f1744f891ca35125f93c23da90\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\8daa693192705b9a75a883a3a9e192a6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\8daa693192705b9a75a883a3a9e192a6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\27c5b42eadce19726a169205e17cd851\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\27c5b42eadce19726a169205e17cd851\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\674eb4288c75a090be05946b88ccda98\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\674eb4288c75a090be05946b88ccda98\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76b9d6882e8e139e016cc99000115613\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76b9d6882e8e139e016cc99000115613\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\f4173927c39ad2063145c528ea84bf16\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\f4173927c39ad2063145c528ea84bf16\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\6e077a97157c337748d4096c1aad2022\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\6e077a97157c337748d4096c1aad2022\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e203673b21598e0cebcccb6d2ab110d3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e203673b21598e0cebcccb6d2ab110d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a39a5082a0a9ab8477d4709b0e02a4f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a39a5082a0a9ab8477d4709b0e02a4f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\447ed0308c47ab265a30c9d47cc992ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\447ed0308c47ab265a30c9d47cc992ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\11de2ee1250ff303261eb60f2f91f677\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\11de2ee1250ff303261eb60f2f91f677\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\cd18727671a3d1496e0786cf839e20bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\cd18727671a3d1496e0786cf839e20bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\947b053fd614220f4dc1c3769bf9e43e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\947b053fd614220f4dc1c3769bf9e43e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\977420ba8037722d261b56589b3f2f0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\977420ba8037722d261b56589b3f2f0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\422c6453074e595637b3de2691aed4a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\422c6453074e595637b3de2691aed4a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\5619fd5edc910dffd7b7392edc8be02a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\5619fd5edc910dffd7b7392edc8be02a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8a7415d09038ea67387eb5176cf131f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8a7415d09038ea67387eb5176cf131f\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbba7b36cbc8c2209bf9318658ac33d7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\dbba7b36cbc8c2209bf9318658ac33d7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c35ed8fd8c7b821e300e6f488716d9e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c35ed8fd8c7b821e300e6f488716d9e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\f6d14ff6f69db4fa7071538294dce9e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\f6d14ff6f69db4fa7071538294dce9e9\AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3c74dc4819ad3ed3d6994f14d4bdbed3\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\3c74dc4819ad3ed3d6994f14d4bdbed3\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8b5462fc03bf3ee61217e5df02eea6a\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a8b5462fc03bf3ee61217e5df02eea6a\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1a7f24ef461089fb62e98833ee02a80a\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1a7f24ef461089fb62e98833ee02a80a\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1702609fe014246e35687c44d726a7f1\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.4] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\1702609fe014246e35687c44d726a7f1\AndroidManifest.xml:27:5-43
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\b317a63cf2da48e0a869ef093f60ead9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\b317a63cf2da48e0a869ef093f60ead9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a16ecbd3e903d280b8389c9ebb73e343\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\a16ecbd3e903d280b8389c9ebb73e343\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\927c9596d88cd57e972e97b240f15bee\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\927c9596d88cd57e972e97b240f15bee\AndroidManifest.xml:5:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\2002a97bd32ec347fea3fa22be4d19a8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\2002a97bd32ec347fea3fa22be4d19a8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\6af9e6c0e34c9f78050806fab4f75577\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\6af9e6c0e34c9f78050806fab4f75577\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\itayg\OneDrive\Coding projects\AndroidStudioProjects\SpykoMusic\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\750d36e99035b54ea119e86d95d091bf\AndroidManifest.xml:33:17-109
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\263ff7997ce7b1432805d67d4da543d8\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\263ff7997ce7b1432805d67d4da543d8\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\263ff7997ce7b1432805d67d4da543d8\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\263ff7997ce7b1432805d67d4da543d8\AndroidManifest.xml:9:13-64
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.5] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e4f8251f5de80eefcaa9617df572f69a\AndroidManifest.xml:13:13-75
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ac2d9714c4439a62f18ac667572a9c78\AndroidManifest.xml:32:25-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\674eb4288c75a090be05946b88ccda98\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-storage-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\674eb4288c75a090be05946b88ccda98\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:15:22-78
+receiver#com.instacart.library.truetime.BootCompletedBroadcastReceiver
+ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:20:9-24:20
+	android:name
+		ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:20:19-95
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:21:13-23:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:22:17-79
+	android:name
+		ADDED from [com.github.instacart.truetime-android:library:3.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\ec5906a187623c557356c5cb17c61b1a\AndroidManifest.xml:22:25-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\4e81f32e9c307fbc60227cb7a95effc8\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\74a574851da479879a2bc6b321af11d3\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\41b4b1046b08a7ee02778523472ebd32\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.0] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\c92e3d1f4b4e5f6b90089996ddcd8226\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\9087f3b2ff45437281650619de0eb236\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\9087f3b2ff45437281650619de0eb236\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\9087f3b2ff45437281650619de0eb236\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\9087f3b2ff45437281650619de0eb236\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\76ac050ef8dab33a8ec7f9e3e96b2845\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e203673b21598e0cebcccb6d2ab110d3\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e203673b21598e0cebcccb6d2ab110d3\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\itayg\.gradle\caches\transforms-2\files-2.1\e203673b21598e0cebcccb6d2ab110d3\AndroidManifest.xml:24:13-58

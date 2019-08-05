@@ -1,0 +1,123 @@
+[debug] [2018-10-19T15:26:42.958Z] ----------------------------------------------------------------------
+[debug] [2018-10-19T15:26:42.961Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\itayg\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-10-19T15:26:42.961Z] CLI Version:   5.1.1
+[debug] [2018-10-19T15:26:42.961Z] Platform:      win32
+[debug] [2018-10-19T15:26:42.961Z] Node Version:  v8.12.0
+[debug] [2018-10-19T15:26:42.962Z] Time:          Fri Oct 19 2018 18:26:42 GMT+0300 (Jerusalem Daylight Time)
+[debug] [2018-10-19T15:26:42.962Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-19T15:26:43.027Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-19T15:26:43.027Z] > authorizing via signed-in user
+[debug] [2018-10-19T15:26:43.027Z] [iam] checking project spyko-music for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2018-10-19T15:26:43.029Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-19T15:26:43.029Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-10-19T15:26:43.733Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:26:43.798Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/spyko-music:testIamPermissions  
+
+[debug] [2018-10-19T15:26:44.835Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'spyko-music'...
+[info] 
+[info] i  deploying functions
+[debug] [2018-10-19T15:27:17.715Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~6.0.0",
+    "firebase-functions": "^2.0.3"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-10-19T15:27:17.716Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/spyko-music?view=CONSUMER_VIEW  
+ 
+[debug] [2018-10-19T15:27:17.716Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/spyko-music?view=CONSUMER_VIEW  
+ 
+[debug] [2018-10-19T15:27:19.343Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:19.352Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2018-10-19T15:27:19.353Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/spyko-music  
+ 
+[debug] [2018-10-19T15:27:20.259Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:20.259Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/172428688750:getServerAppConfig  
+ 
+[debug] [2018-10-19T15:27:20.728Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-10-19T15:27:20.730Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/spyko-music/configs  
+ 
+[debug] [2018-10-19T15:27:21.258Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (40.98 KB) for uploading
+[debug] [2018-10-19T15:27:21.965Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/spyko-music/locations/us-central1/functions:generateUploadUrl  
+ 
+[debug] [2018-10-19T15:27:22.556Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:22.557Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-ea8223cd-d771-4646-a1a4-6402cbea9c4f/4b39dda1-86ae-43d4-b534-a9bda84201d4.zip?GoogleAccessId=service-172428688750@gcf-admin-robot.iam.gserviceaccount.com&Expires=1539964642&Signature=GSGsCmnBroOrYhn2aDPtk0xMxpOKiFBXWC4GeS6n7%2FOaUY4u9EyWcf5eQZP2ShMj20JuegyjpbBVNZZBC8%2BVDgz1VRj%2B1hnfLat%2BLRpYD5OMiubK0QTi89%2F5kHxOh2LZ%2BPd64PS5Hfgxh6By42i1Uo7ZPwKFqLa0TOcB9W5RQSt68RVwVnq%2Bp5NJJhIpZ%2BbcPnSpjn0pKCfJK2mK3qsM8rH5YL8rK6mVDpjyiz73ej5JrwD6Sv%2BFS3urCsRbaKgiPIoO5Bc1PcTrQ1Hc%2B9Yvky5UDrDn2ccfLzhxAHLEpji7vrjoqH1YrKROihmVQIq3FM6GfCFXBbgMgXXgDgS%2F1g%3D%3D  
+
+[debug] [2018-10-19T15:27:23.302Z] <<< HTTP RESPONSE 200
+[info] +  functions: functions folder uploaded successfully
+[debug] [2018-10-19T15:27:23.310Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/spyko-music/locations/-/functions  
+ 
+[debug] [2018-10-19T15:27:24.093Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating Node.js 6 function pushNotification(us-central1)...
+[debug] [2018-10-19T15:27:24.097Z] Trigger is:  {"eventTrigger":{"resource":"projects/_/instances/spyko-music/refs/users/{pushId}","eventType":"providers/google.firebase.database/eventTypes/ref.write","service":"firebaseio.com"}}
+[debug] [2018-10-19T15:27:24.099Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/spyko-music/locations/us-central1/functions/pushNotification {"updateMask":"sourceUploadUrl,name,labels,eventTrigger.resource,eventTrigger.eventType,eventTrigger.service"} 
+
+[debug] [2018-10-19T15:27:24.665Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:24.762Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:25.192Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:27.192Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:27.607Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:29.608Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:29.960Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:31.960Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:32.322Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:34.323Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:34.684Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:36.687Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:37.051Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:39.073Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:39.458Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:41.476Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:41.829Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:43.847Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:44.232Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:46.250Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:46.636Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:48.641Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:48.987Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:50.991Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:51.443Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:53.444Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:53.805Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:55.807Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:56.149Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:27:58.151Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:27:58.546Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:28:00.546Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:28:00.921Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-19T15:28:02.922Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/c3B5a28tbXVzaWMvdXMtY2VudHJhbDEvcHVzaE5vdGlmaWNhdGlvbi96REhpMmQ4NG43RQ  
+ 
+[debug] [2018-10-19T15:28:03.344Z] <<< HTTP RESPONSE 200

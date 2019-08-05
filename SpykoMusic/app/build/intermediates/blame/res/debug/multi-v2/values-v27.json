@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\itayg\\AndroidStudioProjects\\SpykoMusic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v27\\values-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\itayg\\.gradle\\caches\\transforms-1\\files-1.1\\styleabletoast-2.1.2.aar\\24f3ac20ccbb6c40c13d8a26cbb58751\\res\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,169,222,271,327,394,460",
+                        "endColumns": "58,54,52,48,55,66,65,53",
+                        "endOffsets": "109,164,217,266,322,389,455,509"
+                    }
+                }
+            ]
+        }
+    ]
+}

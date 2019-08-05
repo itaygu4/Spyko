@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">172428688750-3ernnhi9hrhq8hfirl9hr6qv3b4m8j4v.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://spyko-music.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">172428688750</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6k0UjvfBQ3MvEK4UkVaFOmEPwnipp_yk</string>
+    <string name="google_app_id" translatable="false">1:172428688750:android:8ceef402c3579f0b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6k0UjvfBQ3MvEK4UkVaFOmEPwnipp_yk</string>
+    <string name="google_storage_bucket" translatable="false">spyko-music.appspot.com</string>
+    <string name="project_id" translatable="false">spyko-music</string>
+</resources>

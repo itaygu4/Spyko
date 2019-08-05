@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bubble_background"
+    android:fitsSystemWindows="true"
+    tools:context=".PlaylistActivity"
+    android:id="@+id/playlistActivityView">
+
+    <!-- Layout to contain contents of main body of screen (drawer will slide over this) -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_search_songs"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            android:contentInsetLeft="0dp"
+            android:contentInsetStart="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            android:contentInsetRight="0dp"
+            android:contentInsetEnd="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:contentInsetEnd="0dp">
+
+
+
+
+
+            <TextView
+                android:layout_toStartOf="@+id/change_name_button"
+                android:id="@+id/playlist_name"
+                android:text=""
+                android:maxLines="1"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_width="210dp"
+                android:ellipsize="end"
+                android:layout_height="wrap_content" />
+
+            <!--<ImageView
+                android:id="@+id/playlist_remove"
+                android:onClick="playlistDeleteClick"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_delete_playlist"
+                android:layout_width="28sp"
+                android:layout_height="28sp" />
+
+
+
+            <ImageView
+                android:id="@+id/change_name_button"
+                android:layout_marginRight="13sp"
+                android:onClick="playlistChangeName"
+                android:layout_gravity="right"
+                android:src="@drawable/edit"
+                android:layout_width="25sp"
+                android:layout_height="25sp" /> -->
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="6sp"
+            android:id="@+id/play_shuffle_layout"
+            android:layout_below="@+id/toolbar_search_songs"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/play_normal_order"
+                android:onClick="playNormalOrderClick"
+                android:paddingTop="4sp"
+                android:layout_marginRight="35sp"
+                android:layout_gravity="right"
+                android:src="@drawable/play"
+                android:layout_width="35sp"
+                android:layout_height="35sp" />
+
+            <ImageView
+                android:id="@+id/shuffle"
+                android:onClick="shuffleClick"
+                android:layout_gravity="right"
+                android:src="@drawable/shuffle"
+                android:layout_width="40sp"
+                android:layout_height="40sp" />
+
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view"
+            android:layout_below="@id/play_shuffle_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16sp"
+            android:layout_marginTop="110sp"
+            android:padding="8sp"
+            android:scrollbars="none" />
+
+        <TextView
+            android:textColor="@color/gray"
+            android:id="@+id/text1"
+            android:text="Press the '+' icon above"
+            android:layout_marginTop="250sp"
+            android:layout_centerHorizontal="true"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/gray"
+            android:id="@+id/text2"
+            android:layout_below="@+id/text1"
+            android:layout_marginTop="5sp"
+            android:text="to add a new song"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:indeterminateTintMode="src_atop"
+            android:id="@+id/loading_bar"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="58dp"
+            android:layout_height="58dp" />
+
+
+
+
+    </RelativeLayout>
+
+
+    <com.github.glomadrian.grav.GravView
+        android:id="@+id/grav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:animationGenerators="@array/BubbleAnimations"
+        app:array_colors="@array/bubble"
+        app:ball_from_size="10dp"
+        app:ball_to_size="20dp"
+        app:colorGenerator="com.github.glomadrian.grav.generator.paint.ArrayColorGenerator"
+        app:gravGenerator="com.github.glomadrian.grav.generator.grav.BallGenerator"
+        app:pointGenerator="com.github.glomadrian.grav.generator.point.RegularPointGenerator"
+        app:regular_cell_size="300"
+        app:regular_variance="200"
+        app:shake_direction="vertical"
+        app:shake_max_duration="20000"
+        app:shake_min_duration="10000"
+        app:shake_variance="500dp"
+        app:side_to_side_direction="leftToRight"
+        app:side_to_side_max_duration="10000"
+        app:side_to_side_min_duration="10000" />
+
+</LinearLayout>

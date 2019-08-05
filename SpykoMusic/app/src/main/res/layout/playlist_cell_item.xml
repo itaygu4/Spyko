@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/playlist_main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="175dp">
+
+    <ImageView
+        android:tint="#85000000"
+        android:scaleType="fitXY"
+        android:id="@+id/playlist_image"
+        android:layout_width="match_parent"
+        android:layout_height="176dp" />
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/cover_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/playlist_name"
+        android:text="Playlist name example"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="24sp"
+        android:textColor="#ffff"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

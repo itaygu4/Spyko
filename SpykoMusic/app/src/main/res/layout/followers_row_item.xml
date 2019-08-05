@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/followers_layout"
+    >
+
+    <ImageView
+        android:layout_marginEnd="12sp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/follower_remove_button"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_remove"
+        android:padding="4sp"
+        android:layout_marginLeft="3sp"
+        android:layout_marginRight="3sp"
+        android:layout_width="31sp"
+        android:layout_height="31sp" />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/follower_account_image"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:text="txt"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/follower_account_image"
+        android:layout_marginTop="19sp"
+        android:id="@+id/follower_account_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_toEndOf="@id/follower_account_nickname"
+        android:layout_centerVertical="true"
+        android:id="@+id/follower_full_name"
+        android:text="real_name"
+        android:layout_marginTop="16sp"
+        android:textSize="15sp"
+        android:layout_marginLeft="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
